@@ -1,7 +1,9 @@
 {
-  "domain": "prusa_mini",
-  "name": "Prusa Mini",
-  "after_dependencies": ["http"],
-  "codeowners": ["@vrnagy"],
-  "config_flow": true
+    "domain": "prusa_mini",
+    "name": "Prusa Mini",
+    "after_dependencies": ["http"],
+	"issue_tracker": "https://github.com/vrnagy/hass-prusa-mini/issues",
+	"documentation": "https://github.com/vrnagy/hass-prusa-mini",
+    "codeowners": ["@vrnagy"],
+    "config_flow": true
 }
