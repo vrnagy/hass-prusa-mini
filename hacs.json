@@ -1,0 +1,6 @@
+{
+    "name": "Prusa Mini",
+    "domains": ["sensor"],
+    "homeassistant": "0.109.0",
+    "iot_class": ["Assumed State", "Local Pull"]
+}

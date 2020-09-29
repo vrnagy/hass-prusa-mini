@@ -1,0 +1,7 @@
+{
+  "domain": "prusa_mini",
+  "name": "Prusa Mini",
+  "after_dependencies": ["http"],
+  "codeowners": ["@vrnagy"],
+  "config_flow": true
+}

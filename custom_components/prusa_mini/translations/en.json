@@ -1,0 +1,19 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Prusa Mini",
+        "description": "Connect to your Prusa Mini 3D Printer",
+        "data": {
+          "ip_address": "IP Address"
+        }
+      }
+    },
+    "error": {
+      "invalid_ip": "Invalid IP Address"
+    },
+    "abort": {
+      "already_configured": "Device is already configured"
+    }
+  }
+}
