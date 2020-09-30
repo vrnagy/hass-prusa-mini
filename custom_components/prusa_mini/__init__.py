@@ -109,4 +109,5 @@ class PrusaMiniEntity(CoordinatorEntity):
             "identifiers": {(DOMAIN, self._entity_id)},
             "name": self._name,
             "manufacturer": "Prusa",
+            "model": "MINI",
         }

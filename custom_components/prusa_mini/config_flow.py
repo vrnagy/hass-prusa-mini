@@ -1,6 +1,6 @@
 """Config flow to configure the Prusa Mini integration."""
 
-from .const import DOMAIN
+from .const import DOMAIN  # pylint: disable=unused-import
 from homeassistant import config_entries
 from homeassistant.const import CONF_IP_ADDRESS
 import ipaddress
@@ -36,8 +36,9 @@ class PrusaMiniFlowHandler(config_entries.ConfigFlow, domain=DOMAIN):
                 await self.async_set_unique_id(ip_address)
                 self._abort_if_unique_id_configured()
 
+                title = f"Prusa Mini {ip_address}"
                 return self.async_create_entry(
-                    title="Prusa Mini",
+                    title=title,
                     data={CONF_IP_ADDRESS: ip_address},
                 )
 
