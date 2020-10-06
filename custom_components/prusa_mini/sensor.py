@@ -89,16 +89,19 @@ class PrusaMiniSensor(PrusaMiniEntity):
         if state is None or state == "":
             return ""
 
-        delta = timedelta(seconds=state)
+        delta = timedelta(seconds=int(state))
+        days = delta.days
+        hours, remainder = divmod(delta.seconds, 3600)
+        minutes, seconds = divmod(remainder, 60)
         parts = []
 
-        if delta.days > 0:
-            parts.append(f"{delta.days}d")
-        if delta.hours > 0:
-            parts.append(f"{delta.days}h")
-        if delta.minutes > 0:
-            parts.append(f"{delta.minutes}m")
-        if delta.seconds > 0:
-            parts.append(f"{delta.seconds}s")
+        if days > 0:
+            parts.append(f"{days}d")
+        if hours > 0:
+            parts.append(f"{hours}h")
+        if minutes > 0:
+            parts.append(f"{minutes}m")
+        if seconds > 0:
+            parts.append(f"{seconds}s")
 
         return " ".join(parts)
