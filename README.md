@@ -1,3 +1,5 @@
+[![Validate with hassfest](https://github.com/vrnagy/hass-prusa-mini/actions/workflows/hassfest.yaml/badge.svg)](https://github.com/vrnagy/hass-prusa-mini/actions/workflows/hassfest.yaml)
+
 Example Lovelace config:
 ```yaml
 type: entities
