@@ -18,3 +18,5 @@ entities:
 title: Prusa Mini
 show_header_toggle: false
 ```
+
+![image](https://user-images.githubusercontent.com/199546/122988219-c6985700-d3a1-11eb-9f1a-5d82b9aa9466.png)
