@@ -44,4 +44,7 @@ show_header_toggle: false
 
 ## Screenshots
 ---
-![image](https://user-images.githubusercontent.com/199546/122988219-c6985700-d3a1-11eb-9f1a-5d82b9aa9466.png)
+![Off](https://user-images.githubusercontent.com/199546/122988219-c6985700-d3a1-11eb-9f1a-5d82b9aa9466.png)
+![Idle without filament](https://user-images.githubusercontent.com/199546/123258215-6a454c80-d4f3-11eb-8a47-46dd48b8ec53.png)
+![Printing](https://user-images.githubusercontent.com/199546/123259739-19365800-d4f5-11eb-8dad-6183f2ae060f.png)
+
